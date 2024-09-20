@@ -14,7 +14,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
 });
 document.getElementById('openPdfBtn').addEventListener('click', function() {
     // URL of the PDF file
-    var pdfUrl = 'Marion Ray G. Miguel Resume.pdf';
+    var pdfUrl = 'Resume Marion Ray Miguel.pdf';
 
     // Open the PDF in a new tab
     window.open(pdfUrl, '_blank');
