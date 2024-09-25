@@ -257,6 +257,29 @@ section {
 .fa-code { color: #007ACC; }          /* Visual Studio Code */
 .fa-file-code { color: #90E59A; }     /* Notepad++ (custom color) */
 .fa-github { color: #e3b04b; }        /* GitHub */
+
+.heading-icon {
+    display: flex;
+    align-items: center; /* Align icon and text vertically */
+    justify-content: center; /* Center the content horizontally */
+  }
+  
+  .TWC-icon {
+    width: 20px; /* Adjust icon width */
+    height: 20px; /* Adjust icon height */
+    color: #06b6d4; /* Set color to match Tailwind CSS logo */
+
+  }
+  .quasar-icon {
+    width: 20px; /* Adjust icon width */
+    height: 20px; /* Adjust icon height */
+    color: #1976d2; /* Quasar's default blue color */
+
+  }
+
+  
+  
+  
 /*PROJECTS*/
 .projects {
     background-color: var(--bg-color);
